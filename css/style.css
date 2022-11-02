@@ -24,43 +24,11 @@ body {
     font-size: 20px;
 }
 
-@media ((min-width: 577px) and (max-width: 768px)) {
-
-    .logo-img {
-        width: 20%;
-    }
-
-    .item a {
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 576px) {
-    .logo {
-        width: 30%;
-    }
-
-    .botao {
-        width: 50%;
-        text-align: end;
-    }
-
-    .logo-img {
-        width: 50px;
-    }
-
-    .item a {
-        font-size: small;
-    }
-
-}
-
 .item:hover {
     background: #9BCB3C;
 }
 
 .equipe {
-    height: 500px;
     background: #D4E9AC;
     padding-bottom: 10%;
 }
@@ -83,7 +51,7 @@ body {
 }
 
 .titulo-sobre {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     padding-top: 40px;
     color:#4B7006;
@@ -103,7 +71,7 @@ body {
 }
 
 .titulo-contato {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     padding: 70px;
     color:#4B7006;
@@ -171,4 +139,51 @@ body {
     text-decoration: none;
     font-size: 40px;
     color: #4B7006;
+}
+
+@media ((min-width: 577px) and (max-width: 768px)) {
+
+    .logo-img {
+        width: 20%;
+    }
+
+    .item a {
+        font-size: 15px;
+    }
+
+    .foto{
+        width: 100%;
+    }
+    .fotos{
+        width: 20%;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        width: 30%;
+    }
+
+    .botao {
+        width: 50%;
+        text-align: end;
+    }
+
+    .logo-img {
+        width: 50px;
+    }
+
+    .item a {
+        font-size: small;
+    }
+
+    .fotos {
+        width: 45%;
+    }
+
+    .foto{
+        width: 100%;
+        padding: 10px;
+    }
+
 }
