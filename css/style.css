@@ -141,6 +141,20 @@ body {
     color: #4B7006;
 }
 
+.texto1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.texto2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+.num{
+    font-weight: bold;
+}
+
 @media ((min-width: 577px) and (max-width: 768px)) {
 
     .logo-img {
