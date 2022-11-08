@@ -5,9 +5,12 @@ body {
 }
 
 .header {
+    position: sticky;
+    top: 0;
     padding-top: 1%;
     padding-bottom: 1%;
     background-color: #4B7006;
+    opacity: .9;
 }
 
 .logo-img {
@@ -141,6 +144,11 @@ body {
     color: #4B7006;
 }
 
+a:hover{
+    color: #4B7006;
+    text-decoration: none;
+}
+
 .texto1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
@@ -154,6 +162,11 @@ body {
 .num{
     font-weight: bold;
 }
+
+.img2{
+    width: 80%;
+}
+
 
 @media ((min-width: 577px) and (max-width: 768px)) {
 
