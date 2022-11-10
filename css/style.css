@@ -48,6 +48,17 @@ body {
     border-radius: 50%;
 }
 
+.foto1 {
+    height: 200px;
+}
+
+.foto-div {
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
 .sobre {
     padding: 1%;
     padding-bottom: 10%;
@@ -165,6 +176,10 @@ body {
 
 .img2{
     width: 80%;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 
